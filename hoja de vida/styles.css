@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+    color: white;
+}
+
+header {
+    background-color: rgb(5, 5, 5);
+    color: rgb(213, 236, 5);
+    text-align: center;
+    padding: 0.5%;
+   
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    margin: 0;
+    background-color: #043cf5;
+    color: rgb(230, 11, 193);
+    text-align: center;
+    padding: 1%;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: rgb(10, 228, 180);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #0cd2e0;
+}
+
+section {
+    padding: 4%;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    background: url(Fondo.png);
+    background-size: cover ;
+    background-position: center;
+}
+
+/* Estilo para las secciones */
+.section {
+  
+    margin-left: 0%;
+}
+
+/* Estilo para el pie de página */
+footer {
+    background-color: rgb(39, 226, 14);
+    color: rgb(165, 161, 161);
+    text-align: center;
+    padding: 0.01%;
+    position: sticky;
+    width: 100%;
+}
+.section1{
+    background-color: rgb(175, 170, 174);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
